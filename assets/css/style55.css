@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* container */
+.container {
+    width: 1000px; 
+    margin: 0 auto;
+}
+
+/* row */
+.row {
+    position: relative;
+    margin: 0 20px;
+    
+}
+
+/* header */
+
+#header .header-data {
+    font-weight: 600;
+    font-size: 12px;
+    padding-top: 30px;  
+    margin-left: 6px;
+    display: block;   
+    color: #a8a8a8;
+}
+#header .header-title {
+    font-weight: bold;
+    font-size: 32px; 
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px; 
+    margin-bottom: 15px; 
+}
+#header .header-id {
+    position: absolute;
+    right: 0; bottom: 10px;
+    background: linear-gradient(150.95deg, #A4A9B5 12.23%, rgba(164, 169, 181, 0) 85.79%), #C4C4C4;
+    width: 40px;
+    height: 40px;
+    /* line-height: 40px;
+    text-align: center; 아래와 같은 방법. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* bestM */
+.bestM .best-title .bt-stitle {
+    color: #da5e7c;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+}
+.bestM .best-title .bt-tit {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+.bestM .best-title .bt-desc {
+    font-size: 22px;
+    font-weight: 300;
+    color: #818188;
+    margin-bottom: 10px;
+}
+
+/* mediaquery */
+@media (max-width:1020px) {
+    .container {width: 100%;}
+}
+
